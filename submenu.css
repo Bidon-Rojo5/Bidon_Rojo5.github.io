@@ -1,0 +1,35 @@
+  .menu-icon {
+    font-size: 26px;
+    cursor: pointer;
+    padding-right: 175px;
+    color: aqua;
+  }
+
+  /* Contenedor del menú */
+  .dropdownMenu {
+    position: absolute;
+    right: 20px;
+    top: 60px;
+    background-color: #444;
+    border-radius: 8px;
+    display: none;
+    flex-direction: column;
+    min-width: 150px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  }
+
+  .dropdownMenu a {
+    padding: 12px;
+    text-decoration: none;
+    color: white;
+    display: block;
+  }
+
+  .dropdownMenu a:hover {
+    background-color: #555;
+  }
+
+  /* Clase que muestra el menú */
+  .show {
+    display: flex;
+  }

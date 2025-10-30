@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zona D - La bodega del marciano a</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="portal.html"><img src="instagram.jpg" class="nave"></a>
+                <a>Zona <span>D</span></a>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#categorias">Categorías</a></li>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="#vender">Vender</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="menu-icon" id="menuBtn">☰</div>
+            
+        </div>
+
+        <!-- Lista desplegable -->
+<div class="dropdownMenu" id="dropdownMenu" style="display: none;">
+    <a href="#">Inicio</a>
+    <a href="#">Servicios</a>
+    <a href="#">Productos</a>
+    <a href="#">Contacto</a>
+  </div>
+  
+  <script src="subMenu.js"></script>
+
+    </header>
+
+  <!-- 🔵 Barra de búsqueda con fondo azul -->
+  <div class="scroll-search-wrapper" id="scrollSearchBar">
+    <div class="scroll-search-bar">
+      <input type="text" placeholder="Buscar productos, categorías..." />
+      <button>🔍</button>
+    </div>
+  </div>
+
+  <script src="Buscador.js"></script>
+
+
+  <script src="Buscador.js"></script>
+
+    <main>
+        <section id="inicio" class="hero-section">
+            <div class="container">
+                <h1>Tu mercado local, online</h1>
+                <p>Encuentra lo que estas buscando ¡Compra y vende con facilidad y seguridad!</p>
+                <div class="search-bar">
+                    <input type="text" placeholder="Busca lo que necesitas...">
+                    <button>Buscar</button>
+                </div>
+                <a href="#productos" class="btn">Pruductos</a>
+                <a href="#vender" class="btn btn-secondary">Empieza a Vender</a>
+            </div>
+        </section>
+
+        <section id="categorias" class="section-padded">
+            <div class="container">
+                <h2>Explora Nuestras Categorías</h2>|
+                <div class="categoria"><img src="portatil.jpg" alt="Portatiles">
+      <div class="texto">
+        <p><strong>Portatiles</strong></p>
+      </div>
+     </div>
+      
+      <div class="categoria"><img src="gabinete.jpg" alt="Gabinetes" >
+       
+       <div class="texto">
+        <p><strong>Gabinetes</strong></p>
+       </div>
+      
+      </div>
+      <div class="categoria"><img src="puntos.jpg" alt="Otros" >
+      
+       <div class="texto">
+        <p><strong>Otros</strong></p>
+       </div>
+            </div>
+        </section>
+
+        <section id="productos" class="section-padded bg-dark-section">
+            <div class="container">
+                <h2>Nuestros productos demandados</h2>
+                <p style="text-align: center; color: #ccc; margin-bottom: 40px;">
+                    Algunas de las mejores ofertas disponibles ahora mismo en nuestra plataforma.
+                </p>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <img src="Productos\carcasa pavilion.jpg" alt="Carcasa">
+                        <div class="product-card-content">
+                            <h4>Carcasa De Monitor Para Hp Pavilion X360 14m-cd0001dx Plata Plateado</h4>
+                            <p class="price">$276.129 ARS</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="Productos\fuente de poder sentey.webp" alt="Fuente">
+                        <div class="product-card-content">
+                            <h4>Placa de panel frontal</h4>
+                            <p class="price">$11.280 ARS</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="Productos\placa frontal.jpg" alt="Placa">
+                        <div class="product-card-content">
+                            <h4>Placa de panel frontal</h4>
+                            <p class="price">$11.280 ARS</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="Productos\placa madre.jpg" alt="Placa">
+                        <div class="product-card-content">
+                            <h4>Placa de panel frontal</h4>
+                            <p class="price">$11.280 ARS</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="placa frontal.jpg" alt="frontal">
+                        <div class="product-card-content">
+                            <h4>Placa de panel frontal</h4>
+                            <p class="price">$11.280 ARS</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="placa frontal.jpg" alt="frontal">
+                        <div class="product-card-content">
+                            <h4>Placa de panel frontal</h4>
+                            <p class="price">$11.280 ARS</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="vender" class="section-padded">
+            <div class="container">
+                <h2>¿Quieres Vender en MercadoDigital?</h2>
+                <div class="sell-section">
+                    <div class="image-block">
+                        <img src="persona-vendiendo.jpg" alt="Persona vendiendo online">
+                    </div>
+                    <div class="text-block">
+                        <h3>Es Fácil y Rápido Empezar a Vender</h3>
+                        <p class="v">Únete a nuestra creciente comunidad de vendedores y llega a miles de compradores en Santiago del Estero y el resto del país. ¡Publicar tus productos es sencillo y te ofrecemos las herramientas para gestionar tus ventas!</p>
+                        <ul>
+                            <li>**Registro Simple:** Crea tu cuenta de vendedor en minutos.</li>
+                            <li>**Publicaciones Ilmitadas:** Sube fotos y descripciones de tus productos.</li>
+                            <li>**Pagos Seguros:** Recibe tu dinero de forma rápida y segura.</li>
+                            <li>**Soporte Dedicado:** Te acompañamos en cada paso.</li>
+                        </ul>
+                        <a href="#" class="btn">Regístrate como Vendedor</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="cta-section">
+            <div class="container">
+                <h2>¿Tienes Preguntas? Contáctanos.</h2>
+                <p class="c">Nuestro equipo está listo para ayudarte con cualquier consulta sobre tu experiencia de compra o venta.</p>
+                <a href="mailto:soporte@mercadodigital.com.ar" class="tertiary">Envíanos un Email</a>
+                <a href="https://wa.me/549385XXXXXXXX" target="_blank" class="quaternary" style="margin-left: 15px;">Habla por WhatsApp</a>
+            </div>
+        </section>
+    </main>
+
+
+</body>
+<footer>
+        <div class="container">
+            <p>&copy; 2025 MercadoDigital. Todos los derechos reservados.</p>
+            <p>Conectando Santiago del Estero con el mundo digital.</p>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#">Ayuda</a></li>
+                    <li><a href="#">Términos y Condiciones</a></li>
+                    <li><a href="#">Política de Privacidad</a></li>
+                </ul>
+            </div>
+            <div class="social-media-icons">
+                <a href="#" target="_blank"><img src="logo facebook.png" alt="Facebook">Facebook</a>
+                <a href="#" target="_blank"><img src="instagram.jpg" alt="Instagram">Instagram</a>
+                <a href="#" target="_blank"><img src="logo twitter.png" alt="Twitter">Twitter</a>
+            </div>
+        </div>
+    </footer>
+</html>

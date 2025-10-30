@@ -1,0 +1,71 @@
+        /* Call to Action Final */
+        .cta-section {
+            text-align: center;
+            color: var(--color-white);
+            padding: 80px 0;
+            border-top: 5px solid var(--color-orange);
+            border-bottom: 5px solid var(--color-orange);
+        }
+
+        .cta-section h2 {
+            font-size: 3em;
+            text-shadow: 2px 2px 5px var(--shadow-dark);
+        }
+        .cta-section h2::after {
+            background-color: var(--color-aqua);
+        }
+        .cta-section p {
+            font-size: 1.3em;
+            max-width: 800px;
+            margin: 0 auto 40px auto;
+            color: #e0e0e0;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+        }
+
+        .c{
+            padding-top: 50px;
+        }
+
+        .tertiary{
+     width: 200px;
+    display: inline-block;
+    background-color: var(--dark-blue);
+    color: var(--color-white);
+    padding: 12px 30px;
+    border-radius: 5px; /* Bordes ligeramente redondeados */
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    text-transform: uppercase; /*Transforma el texto en mayúscula*/
+    font-weight: 600;/*negrita*/
+    letter-spacing: 0.5px;/*Espacio entre letras*/
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.95em;
+}
+
+.tertiary:hover{
+    background-color: var(--color-white);
+                color: var(--color-red);
+                box-shadow: 0 6px 15px rgba(255,255,255,0.2);
+}
+
+.quaternary{
+    width: 200px;
+    display: inline-block;
+    background-color: var(--dark-blue);
+    color: var(--color-white);
+    padding: 12px 30px;
+    border-radius: 5px; /* Bordes ligeramente redondeados */
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    text-transform: uppercase; /*Transforma el texto en mayúscula*/
+    font-weight: 600;/*negrita*/
+    letter-spacing: 0.5px;/*Espacio entre letras*/
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.95em;
+}
+
+.quaternary:hover{
+    background-color: var(--color-green-w);
+                color: var(--color-white);
+                box-shadow: 0 6px 15px rgba(255,255,255,0.2);
+}
